@@ -68,7 +68,7 @@ INSERT INTO `item_latents` VALUES(13870, 11, -3, 49, 4596); -- Opo-opo Crown, AG
 INSERT INTO `item_latents` VALUES(13870, 8, -3, 49, 4596); -- Opo-opo Crown, STR+1 to STR-2
 INSERT INTO `item_latents` VALUES(13870, 5, 50, 49, 4596);
 INSERT INTO `item_latents` VALUES(13870, 2, 50, 49, 4596);
-INSERT INTO `item_latents` VALUES(17073, 406, 3, 7, 2); -- Mistilteinn drains 3TP if TP >= 3
+INSERT INTO `item_latents` VALUES(17073, 406, 30, 7, 2); -- Mistilteinn drains 30TP if TP >= 30
 INSERT INTO `item_latents` VALUES(17073, 369, 1, 7, 2); -- Mistilteinn adds Refresh 1MP per tick
 
 -- -------------------------------------------------------
@@ -1328,6 +1328,12 @@ INSERT INTO `item_latents` VALUES(15816, 5, 20, 26, 0); -- MP+20 during Daytime
 INSERT INTO `item_latents` VALUES(10807, 370, 1, 26, 0); -- Regen 1/tick during Daytime
 
 -- -------------------------------------------------------
+-- Mushroom Helm        
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13913, 370, 1, 30, 0); -- Regen 1/tick on Watersdays
+INSERT INTO `item_latents` VALUES(13913, 370, 1, 32, 0); -- Regen 1/tick on Darksdays
+
+-- -------------------------------------------------------
 -- Dinner Jacket       
 -- -------------------------------------------------------
 INSERT INTO `item_latents` VALUES(11355, 14, 1, 26, 1); -- CHR+1 during Nighttime
@@ -2287,3 +2293,71 @@ INSERT INTO `item_latents` VALUES(14429, 169, 12, 54, 20);
 -- Federation Aketon
 -- -------------------------------------------------------
 INSERT INTO `item_latents` VALUES(14430, 169, 12, 54, 21);
+
+-- -------------------------------------------------------
+-- Ice Belt
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13242, 12, 3, 34, 0); -- +3 INT on Iceday
+
+-- -------------------------------------------------------
+-- Ice Ring
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13561, 6, -15, 34, 0); -- -15% MP on Iceday
+INSERT INTO `item_latents` VALUES(13561, 115, 15, 34, 0); -- +15 Elemental Magic Skill on Iceday
+
+-- -------------------------------------------------------
+-- Earth Belt
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13244, 10, 3, 29, 0); -- +3 VIT on Earthsday
+
+-- -------------------------------------------------------
+-- Earth Ring
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13563, 3, -15, 29, 0); -- -15% HP on Earthsday
+INSERT INTO `item_latents` VALUES(13563, 1, 15, 29, 0); -- +15 DEF on Earthsday
+
+-- -------------------------------------------------------
+-- Fire Belt
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13241, 8, 3, 28, 0); -- +3 STR on Firesday
+
+-- -------------------------------------------------------
+-- Fire Ring
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13560, 3, -15, 28, 0); -- -15% HP on Firesday
+INSERT INTO `item_latents` VALUES(13560, 23, 15, 28, 0); -- +15 Attack on Firesday
+INSERT INTO `item_latents` VALUES(13560, 24, 15, 28, 0); -- +15 Ranged Attack on Firesday
+
+-- -------------------------------------------------------
+-- Water Belt
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13246, 13, 3, 30, 0); -- +3 MND on Watersday
+
+-- -------------------------------------------------------
+-- Water Ring
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13565, 6, -15, 30, 0); -- -15% MP on Watersday
+INSERT INTO `item_latents` VALUES(13565, 296, 15, 30, 0); -- +15 "Conserve MP" on Watersday
+
+-- -------------------------------------------------------
+-- Lightning Belt
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13245, 9, 3, 35, 0); -- +3 DEX on Lightningsday
+
+-- -------------------------------------------------------
+-- Lightning Ring
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13564, 3, -15, 35, 0); -- -15% HP on Lightningsday
+INSERT INTO `item_latents` VALUES(13564, 25, 15, 35, 0); -- +15 Accuracy on Lightningsday
+INSERT INTO `item_latents` VALUES(13564, 26, 15, 35, 0); -- +15 Ranged Accuracy on Lightningsday
+
+-- -------------------------------------------------------
+-- Wind Belt
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13243, 11, 3, 31, 0); -- +3 AGI on Windsday
+
+-- -------------------------------------------------------
+-- Wind Ring
+-- -------------------------------------------------------
+INSERT INTO `item_latents` VALUES(13562, 3, -15, 31, 0); -- -15% HP on Windsday
+INSERT INTO `item_latents` VALUES(13562, 68, 15, 31, 0); -- +15 Evasion on Windsday
